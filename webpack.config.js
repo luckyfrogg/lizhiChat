@@ -24,5 +24,5 @@ module.exports = env => {
     default:
       webpackConfig = require('./configs/webpack.dev.conf');
   }
-  return webpackConfig;
+  return webpackConfig; 
 }
